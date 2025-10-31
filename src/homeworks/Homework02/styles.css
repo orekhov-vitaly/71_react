@@ -1,0 +1,10 @@
+.homework02-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-grow: 1;
+    padding-top: 50px;
+}

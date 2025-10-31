@@ -1,0 +1,25 @@
+.profilecard-wrapper {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #aaa
+}
+
+.profilecard-avatar {
+    width: 100%;
+}
+
+.profilecard-name {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.profilecard-profession {
+    padding: 0 0 10px;
+    color: #5e5e5e;
+}
+
+.profilecard-hobby {
+    font-style: italic;
+}
