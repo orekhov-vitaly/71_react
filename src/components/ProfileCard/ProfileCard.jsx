@@ -1,7 +1,15 @@
+import "./styles.css";
+import {profileData} from "./data.js";
+
 function ProfileCard() {
     return (
         <div className="profilecard-wrapper">
-            <img src="https://funny.klev.club/uploads/posts/2024-03/funny-klev-club-p-smeshnie-kartinki-zhivotnie-na-avu-do-slez-2.jpg" alt="Avatar" />
+            <img className="profilecard-avatar" src={profileData.avatarUrl} alt="Avatar" />
+            <p className="profilecard-name">{profileData.name}</p>
+            <p className="profilecard-profession">{profileData.profession}</p>
+            <p className="profilecard-hobby">{profileData.hobby}</p>
         </div>
     );
 };
+
+export default ProfileCard;
