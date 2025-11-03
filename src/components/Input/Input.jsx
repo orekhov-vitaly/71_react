@@ -1,9 +1,25 @@
 import "./styles.css";
 
-function Input({type, placeholder, disabled}) {
-    return(
-        <input type={type} className="form-control" placeholder={placeholder} disabled={disabled} />
+function Input({ name, type, placeholder, label, required, disabled }) {
+    return (
+        <div className="form-group">
+            <label
+                htmlFor=""
+                className="lable-control"
+                required={required}
+            >
+                {label}
+            </label>
+            <input
+                type={type}
+                name={name}
+                className="form-control"
+                placeholder={placeholder}
+                required={required}
+                disabled={disabled}
+            />
+        </div>
     );
-};
+}
 
 export default Input;
