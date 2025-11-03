@@ -7,7 +7,7 @@ function Homework03() {
     return (
         <div className="homework03-wrapper">
             <form className="form-wrapper">
-                <Input type="text" label="Email" placeholder="Enter your email" required={true} disabled={false}/>
+                <Input type="email" id="email_id" label="Email" placeholder="Enter your email" required={true} disabled={false}/>
                 <Button name="Send email" type="submit" disabled={false} />
             </form>
         </div>

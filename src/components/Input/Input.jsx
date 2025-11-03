@@ -1,10 +1,10 @@
 import "./styles.css";
 
-function Input({ name, type, placeholder, label, required, disabled }) {
+function Input({ name, type, id, placeholder, label, required, disabled }) {
     return (
         <div className="form-group">
             <label
-                htmlFor=""
+                htmlFor={id}
                 className="lable-control"
                 required={required}
             >
@@ -13,6 +13,7 @@ function Input({ name, type, placeholder, label, required, disabled }) {
             <input
                 type={type}
                 name={name}
+                id={id}
                 className="form-control"
                 placeholder={placeholder}
                 required={required}
