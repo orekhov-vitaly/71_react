@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Button(props) {
-    return <button className="button" type={props.type}>{props.name}</button>;
+function Button({name, type, disabled}) {
+    return <button className="button" type={type} disabled={disabled}>{name}</button>;
 }
 
 export default Button;

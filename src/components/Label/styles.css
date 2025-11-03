@@ -1,0 +1,10 @@
+.lable-control {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6F6F6F;
+}
+
+.lable-control[required]::after {
+    content: " *";
+    color: rgb(255, 0, 0);
+}
