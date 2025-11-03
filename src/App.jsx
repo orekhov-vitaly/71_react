@@ -1,12 +1,12 @@
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
 // import Button from "./components/Button/Button";
-import Homework02 from "./homeworks/Homework02/Homework02";
 
 // Импорты лекций
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
-import Lesson03 from "./lessons/Lesson03/Lesson03";
+// import Lesson03 from "./lessons/Lesson03/Lesson03";
 
 // Импорты домашних работ
+// import Homework02 from "./homeworks/Homework02/Homework02";
 
 function App() {
     return (
@@ -14,14 +14,13 @@ function App() {
             {/* <div className="button-container">
                 <Button />
             </div> */}
-            {/* <Lesson02 /> */}
-            <Homework02/>
 
-            {/* Лекция 2 */}
+            {/* Лекции */}
             {/* <Lesson02 /> */}
+            {/* <Lesson03 /> */}
 
-            {/* Лекция 3 */}
-            <Lesson03 />
+            {/* Домашние работы */}
+            {/* <Homework02/> */}
         </>
     );
 }
