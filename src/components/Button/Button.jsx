@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Button(props) {
-    return <button className="button" type={props.type}>{props.name}</button>;
+function Button({type="button", name, onClick}) {
+    return <button className="button" type={type} onClick={onClick}>{name}</button>;
 }
 
 export default Button;
