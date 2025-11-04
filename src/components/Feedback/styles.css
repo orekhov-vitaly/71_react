@@ -1,0 +1,64 @@
+.feedback-wrapper {
+    width: 100%;
+    padding: 40px;
+}
+
+.like-container,
+.dislike-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px;
+}
+
+.like-container .button {
+    width: auto;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 0 100px 100px 0;
+    font-size: 20px;
+    line-height: 1;
+    transition: background 0.2s;
+}
+
+.dislike-container .button {
+    width: auto;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 100px 0 0 100px;
+    font-size: 20px;
+    line-height: 1;
+    transition: background 0.2s;
+}
+
+.like-container .button:hover {
+    background: #cacaca;
+}
+
+.like-counter {
+    width: auto;
+    min-width: 48px;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-right: none;
+    border-radius: 100px 0 0 100px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+}
+
+.dislike-counter {
+    width: auto;
+    min-width: 48px;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-left: none;
+    border-radius: 0 100px 100px 0;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+}
