@@ -9,8 +9,8 @@
 
 // Импорты домашних работ
 // import Homework02 from "./homeworks/Homework02/Homework02";
-import Homework04 from "./homeworks/Homework04/Homework04";
 // import Homework03 from "./homeworks/Homework03/Homework03";
+import Homework04 from "./homeworks/Homework04/Homework04";
 
 function App() {
     return (
@@ -26,8 +26,8 @@ function App() {
 
             {/* Домашние работы */}
             {/* <Homework02/> */}
-            <Homework04/>
             {/* <Homework03/> */}
+            <Homework04/>
         </>
     );
 }

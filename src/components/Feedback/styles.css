@@ -33,7 +33,8 @@
     transition: background 0.2s;
 }
 
-.like-container .button:hover {
+.like-container .button:hover,
+.dislike-container .button:hover {
     background: #cacaca;
 }
 
