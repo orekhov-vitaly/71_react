@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Button({name, type, disabled=false}) {
-    return <button className="button" type={type} disabled={disabled}>{name}</button>;
+function Button({type="button", name, onClick}) {
+    return <button className="button" type={type} onClick={onClick}>{name}</button>;
 }
 
 export default Button;

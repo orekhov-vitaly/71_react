@@ -1,9 +1,11 @@
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
 // import Button from "./components/Button/Button";
 
+
 // Импорты лекций
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
 // import Lesson03 from "./lessons/Lesson03/Lesson03";
+import Lesson04 from "./lessons/Lesson04/Lesson04";
 
 // Импорты домашних работ
 // import Homework02 from "./homeworks/Homework02/Homework02";
@@ -19,6 +21,7 @@ function App() {
             {/* Лекции */}
             {/* <Lesson02 /> */}
             {/* <Lesson03 /> */}
+            <Lesson04/>
 
             {/* Домашние работы */}
             {/* <Homework02/> */}
