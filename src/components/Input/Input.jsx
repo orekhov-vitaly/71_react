@@ -1,6 +1,6 @@
 import "./styles.css";
 
-function Input({ name, type, id, placeholder, label, required, disabled }) {
+function Input({ name, type, id, placeholder, label, required=false, disabled=false }) {
     return (
         <div className="form-group">
             <label
